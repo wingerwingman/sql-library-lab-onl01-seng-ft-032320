@@ -25,7 +25,7 @@ CREATE TABLE series (
     author_id INTEGER
   );
   
-  CREATE TABLE caracter_books (
+  CREATE TABLE character_books (
     id INTEGER PRIMARY KEY,
     book_id INTEGER,
     caracter_id INTEGER
