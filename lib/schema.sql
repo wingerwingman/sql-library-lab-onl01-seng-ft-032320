@@ -17,7 +17,7 @@ CREATE TABLE series (
     series_id INTEGER 
   );
   
-  CREATE TABLE table (
+  CREATE TABLE characters (
     id INTEGER PRIMARY KEY,
     name TEXT,
     spedies TEXT,
