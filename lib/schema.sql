@@ -20,7 +20,7 @@ CREATE TABLE series (
   CREATE TABLE characters (
     id INTEGER PRIMARY KEY,
     name TEXT,
-    spedies TEXT,
+    species TEXT,
     motto TEXT,
     author_id INTEGER
   );
