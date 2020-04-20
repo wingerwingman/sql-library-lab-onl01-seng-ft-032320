@@ -1,3 +1,3 @@
-UPDATE species
-SET lastname = 'Smith'
-WHERE employeeid = 3;
+UPDATE characters
+SET species = 'Martian'
+WHERE employeeid = 8;
