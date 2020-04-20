@@ -1,0 +1,1 @@
+INSERT INTO series (title, author_id, subgenre_id) values ("bond", 2, 4), ("narly", 3, 2);
