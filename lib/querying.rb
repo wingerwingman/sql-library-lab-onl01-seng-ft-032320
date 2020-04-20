@@ -8,10 +8,7 @@ end
 
 def select_name_and_motto_of_char_with_longest_motto
   "SELECT character.name, characters.motto FROM characters
-    JOIN series 
-    on books.series_id = series.id
-    WHERE series.id = 1 
-    ORDER BY books.year;"
+    ORDER BY len(characters.motto);"
 end
 
 
