@@ -28,5 +28,5 @@ CREATE TABLE series (
   CREATE TABLE caracter_books (
     id INTEGER PRIMARY KEY,
     book_id INTEGER,
-    caracter_id INTEGER,
+    caracter_id INTEGER
   );
