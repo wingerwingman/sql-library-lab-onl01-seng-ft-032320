@@ -1,6 +1,6 @@
 INSERT INTO series (title, author_id, subgenre_id) VALUES ("bond", 2, 4), ("narly", 3, 2);
 
-INSERT INTO subgenras (name) VALUES ("Indie"), ("phyphi");
+INSERT INTO subgenres (name) VALUES ("Indie"), ("phyphi");
 
 INSERT INTO authors (name) VALUES ("Dan"), ("Andy");
 
